@@ -1,6 +1,7 @@
 body {
   background-color: white;
   margin: 0px;
+
 }
 
 
@@ -9,17 +10,20 @@ h1 {
   text-align:center;
   line-height: 100px;
 }
+.header {
+  margin:0px;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: #333;
-}
-ul {
-  position: fixed;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
   top: 0;
-  width: 100%;
+    width: 100%;
 }
 
 li {
@@ -40,12 +44,11 @@ li a:hover {
 .active {
   background-color: #2372ef;
 }
-div {
+
+#text1 {
    padding:20px;
    margin-top:20px;
    background-color:white;
    height:1500px;
-p {
-  color: navy;
-}
+
 }
