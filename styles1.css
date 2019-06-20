@@ -1,0 +1,51 @@
+body {
+  background-color: white;
+  margin: 0px;
+}
+
+
+h1 {
+  color: navy;
+  text-align:center;
+  line-height: 100px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+ul {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #2372ef;
+}
+.active {
+  background-color: #2372ef;
+}
+div {
+   padding:20px;
+   margin-top:20px;
+   background-color:white;
+   height:1500px;
+p {
+  color: navy;
+}
+}
