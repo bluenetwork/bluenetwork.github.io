@@ -8,10 +8,11 @@ body {
 h1 {
   color: navy;
   text-align:center;
-  line-height: 100px;
+  line-height: 0px;
 }
 .header {
   margin:0px;
+  padding:0px;
 }
 
 ul {
@@ -22,7 +23,7 @@ ul {
   background-color: #333;
   position: -webkit-sticky; /* Safari */
   position: sticky;
-  top: 0;
+  top: 0px;
     width: 100%;
 }
 
@@ -44,11 +45,16 @@ li a:hover {
 .active {
   background-color: #2372ef;
 }
-
+.register {
+  background-color: #02d86d;
+}
 #text1 {
-   padding:20px;
-   margin-top:20px;
+   padding:5%;
+   margin-top:0px;
    background-color:white;
-   height:1500px;
+   height:50px;
 
+}
+.mstyle {
+    padding:0px;
 }
